@@ -3,6 +3,11 @@
 This repo is meant to be used to keep things organized during content development and act as the source of truth for all projects and exercises related to this course.
 
 ## Folder Structure
+git clone --no-checkout https://github.com/udacity/cd14641-langgraph-multi-public autonomous_knowledge_agent cd autonomous_knowledge_agent
+
+git sparse-checkout init --cone
+git sparse-checkout set project
+git checkout main
 
 ### Lesson Folder
 
